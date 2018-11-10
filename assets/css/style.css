@@ -1,0 +1,165 @@
+/*GENERAL*/
+/*Tamaño extra pequeño, Teléfonos XS*/
+@media (max-width:767px) {
+
+    /*PRESENTACIÓN*/
+    .logo {
+        padding: 80px;
+    }
+
+    #presentacion_parrafo{
+        padding-top: -70px;
+        padding-bottom: 50px;
+        font-size: 25px;
+    }
+    .form_email {
+        padding-top: 20px;
+    }
+}
+
+/*Tamaño pequeño, Tablets SM*/
+@media (min-width:768px) and (max-width:991px) {
+  .form_email {
+      padding-top: 20px;
+  }
+}
+
+/*Tamaño medio, Escritorios MD*/
+@media (min-width:992px) and (max-width:1199px) {}
+
+/*Tamaño grande, Escritorios LG*/
+@media (min-width:1200px) {}
+
+.w100 {
+    width: 100%;
+}
+
+.jumbotron_video {
+    background-color: black;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.navbar-default {}
+
+/*BANNER PRINCIPAL*/
+.carousel {
+    margin-top: 30px;
+}
+
+/*PRESENTACIÓN*/
+.logo {
+    padding: 50px;
+}
+
+#presentacion_cck {
+    padding-top: 50px;
+}
+
+/*NOTICIAS*/
+.jumbotron_noticias {
+    padding-top: 70px;
+    margin-bottom: -70px
+}
+
+#noticias_play {
+    padding-left: 50px;
+    text-align: left;
+    position: relative;
+    top: 5px;
+    color: white;
+}
+
+/*ÁREAS DE TRABAJO*/
+#areas {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.area {
+    padding: 60px;
+}
+
+#boton_voluntario {
+    margin-top: 20px;
+}
+
+#boton_cx {
+    margin-top: 32px;
+}
+
+#boton_kids {
+    margin-top: 20px;
+}
+
+.area p {
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+/*SERVOLUCIÓN*/
+.jumbotron_servolucion {
+    padding-top: 70px;
+    margin-bottom: -90px
+}
+
+#servolucion_play {
+    padding-left: 50px;
+    text-align: left;
+    position: relative;
+    top: -30px;
+    color: white;
+}
+
+.logo_servolucion {
+    padding: 70px;
+    box-sizing: border-box;
+    position: relative;
+    top: -90px;
+}
+
+/*FORMULARIO*/
+.conocerte_parrafo {
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.form {
+    background-color: #ddc;
+    padding-top: 30px;
+    position: relative;
+    top: -30px;
+    padding: 50px;
+}
+
+.form_name .form_email {
+    margin-top: 20px;
+}
+
+.form_msn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: black;
+    height: 40px;
+    position: relative;
+    bottom: 0;
+    margin-top: -30px;
+}
+
+#CCK_Footer {
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    display: inline;
+}
+
+#Contacto_Footer {
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    display: inline-block;
+}
