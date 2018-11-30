@@ -7,11 +7,12 @@
         padding: 80px;
     }
 
-    #presentacion_parrafo{
+    #presentacion_parrafo {
         padding-top: -70px;
         padding-bottom: 50px;
         font-size: 25px;
     }
+
     .form_email {
         padding-top: 20px;
     }
@@ -19,9 +20,9 @@
 
 /*Tamaño pequeño, Tablets SM*/
 @media (min-width:768px) and (max-width:991px) {
-  .form_email {
-      padding-top: 20px;
-  }
+    .form_email {
+        padding-top: 20px;
+    }
 }
 
 /*Tamaño medio, Escritorios MD*/
@@ -51,6 +52,10 @@
     padding: 50px;
 }
 
+#presentacion {
+    padding: 50px;
+}
+
 #presentacion_cck {
     padding-top: 50px;
 }
@@ -58,7 +63,12 @@
 /*NOTICIAS*/
 .jumbotron_noticias {
     padding-top: 70px;
-    margin-bottom: -70px
+    margin-bottom: -70px;
+}
+
+.container_noticias {
+    padding: 50px;
+    margin-bottom: 50px;
 }
 
 #noticias_play {
@@ -102,6 +112,10 @@
     margin-bottom: -90px
 }
 
+.container_servolucion {
+    padding: 50px;
+}
+
 #servolucion_play {
     padding-left: 50px;
     text-align: left;
@@ -117,6 +131,34 @@
     top: -90px;
 }
 
+.featured {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+.gallery {
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.thumb {
+    width: 100px;
+    height: 80px;
+    transition: 1s;
+}
+
+.gris {
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);
+    /* Microsoft Edge and Firefox 35+ */
+}
+
 /*FORMULARIO*/
 .conocerte_parrafo {
     padding-top: 15px;
@@ -124,12 +166,13 @@
     font-size: 20px;
 }
 
-.form {
-    background-color: #ddc;
+.formulario {
+    background-color: #baa;
     padding-top: 30px;
     position: relative;
     top: -30px;
     padding: 50px;
+    margin-bottom: -35px;
 }
 
 .form_name .form_email {
@@ -137,9 +180,29 @@
 }
 
 .form_msn {
-    margin-top: 20px;
-    margin-bottom: 10px;
+  padding: 15px;
 }
+
+.boton_enviar{
+  padding-right: 140px;
+}
+
+/*MAPA*/
+.ubication {
+    color: black;
+    display: inline;
+    padding-top: 0px;
+    padding-left: 50px;
+    ;
+}
+.map_text {
+    padding-top: 20px;
+}
+.map_logo{
+  padding: 70px;
+}
+
+
 
 /*FOOTER*/
 .footer {
