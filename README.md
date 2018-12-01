@@ -62,3 +62,5 @@ Footer
 
 TIPO DE PÁGINA:
 -La página es una combinación de Blog y sitio corporativo
+
+https://nicocesgo.github.io/PROYECTO-FINAL/index.html
