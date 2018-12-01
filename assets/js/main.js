@@ -6,4 +6,9 @@ $(document).ready(function() {
     $(".featured").attr("src", source);
   })
 
+  $(".boton_enviar").click(function(){
+    var a = $(".form_msn").append('<h3>Gracias por tu mensaje<h3>');
+    a.prepend('<h3>Registro Exitoso</h3>');
+  })
+
 });
